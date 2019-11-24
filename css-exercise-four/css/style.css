@@ -1,0 +1,65 @@
+body {
+  background-color: #dadada;
+  font-size: 10px;
+  text-transform: uppercase;
+  display: block;
+}
+
+@media screen and (min-width: 500px) {
+  body {
+    background-color: #fff;
+    display: block;
+
+}
+
+
+h1 {
+  font-size: 1em;
+  padding: 1% 1%;
+  font-family:sans-serif;
+}
+
+/*BIG TEST!!*/
+.container {
+  margin: 1% auto;
+  width: 110%;
+}
+
+
+/*also?*/
+div {
+  background-color: none;
+  padding: 10px 10px 100px 10px;
+}
+
+
+
+/*works?*/
+img {
+  width: 100%;
+  height: auto;
+}
+
+
+.container {
+  margin: 0px auto;
+  width: 99%;
+  height: 80%
+}
+
+div {
+  background-color: #fff;
+  float: left;
+  margin: 10% 10%;
+  width: 110%;
+  padding: 0px 20px;
+}
+
+/* code added to create two-column design */
+@media screen and (min-width: 505px){
+   div {
+    margin: 1%;
+    width: 30%;
+
+  }
+}
